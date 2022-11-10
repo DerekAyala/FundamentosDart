@@ -1,6 +1,8 @@
 void main() {
   var numero; // tipado por inferencia
   // Inferencia de datos consiste al momento de declarar una variable sin declararle el tipo este es inferido al tipo de dato que es asignado
+  // no es recomendarle usarlo
+  // no es una buena practicoa
   print(numero);
   int numero2 = 10; // tipado explicito
   print(numero2);
