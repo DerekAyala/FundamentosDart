@@ -6,6 +6,8 @@ void main() {
   print(numero);
   int numero2 = 10; // tipado explicito
   print(numero2);
+  // tipado estatico
+  // cuando se le define el tipo de dato a la variable este se le llama estatico
   int entero = 0;
   double flotantes = 0.0;
   num numerica= 0.0;
