@@ -6,6 +6,16 @@ void main() {
   // interpolacion de cadenas
   mensaje = "Hola $nombre tienes ${edad(2001,2022)} años";
   print(mensaje);
+
+  String email = "dayala0@ucol.mx";
+  print("Startswith d: ${email.startsWith("d")}");
+  print("endswith mx: ${email.endsWith("mx")}");
+  print("esta vacio: ${email.isEmpty}");
+  print("contains @: ${email.contains("@")}");
+  print("touppercase: ${email.toUpperCase()}");
+  print("trim: ${email.trim()}");
+  print("substring: ${email.substring(7,15)}");
+  print(email.runtimeType);
 }
 
 // funcion imperativa
