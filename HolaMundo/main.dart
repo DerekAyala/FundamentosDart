@@ -9,7 +9,9 @@ void main() {
   print(2+4);
   print(suma(2, 4));
 }
-
+/**
+ * Otra forma de hacer comentarios
+ */
 
 /// Funcion para sumar dos numeros enteros
 /// recibe dos numeros enteros
